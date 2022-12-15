@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">ToolbarSwipe</string>
+    <string name="fab_description">FAB button description</string>
+    <string name="part_one">Scroll Only</string>
+    <string name="part_two">Scroll Show Tab</string>
+    <string name="part_three">Scroll Show Swipe Tab</string>
+    <string name="tab_2">TAB 2</string>
+    <string name="tab_1">TAB 1</string>
+
+</resources>

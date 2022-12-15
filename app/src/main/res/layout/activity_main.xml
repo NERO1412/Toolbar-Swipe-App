@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_shadow"
+    tools:context=".activity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/partOneButton"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/listPreferredItemHeight"
+            android:layout_gravity="center"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:text="@string/part_one"
+            android:background="@drawable/btn_item" />
+
+        <Button
+            android:id="@+id/partTwoButton"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/listPreferredItemHeight"
+            android:layout_gravity="center"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="15dp"
+            android:text="@string/part_two"
+            android:background="@drawable/btn_item" />
+
+        <Button
+            android:id="@+id/partThreeButton"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/listPreferredItemHeight"
+            android:layout_gravity="center"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="15dp"
+            android:text="@string/part_three"
+            android:background="@drawable/btn_item" />
+    </LinearLayout>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"/>
+
+</FrameLayout>
